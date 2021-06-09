@@ -19,9 +19,5 @@ public class CsControllerAdvice {
 		return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
 	}
 
-//	@ExceptionHandler(RestrictedEntityDetailsChangeException.class)
-//	public ResponseEntity<?> handleChangeException(RestrictedEntityDetailsChangeException e) {
-//		return new ResponseEntity<>(e.getMessage(), HttpStatus.BAD_REQUEST);
-//	}
 
 }
